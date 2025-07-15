@@ -1,10 +1,11 @@
 <img src="https://st4.depositphotos.com/3316741/22997/i/450/depositphotos_229976142-stock-photo-pizza-with-tomatoes-mozzarella-cheese.jpg"
     alt="Pizzeria banner"
     width="600" />
+
 # Pizzeria-Backend API
 API REST construida con FastAPI, SQLModel y PostgreSQL para gestionar pedidos, usuarios y autenticación JWT de una pizzería, lista para producción con Docker y Railway.
 
-# Características
+# Características
 ✅ CRUD de usuarios con autenticación JWT.
 ✅ Gestión de pedidos y productos.
 ✅ Conexión a PostgreSQL usando SQLModel.
@@ -43,5 +44,5 @@ JWT_SECRET=tu_secret
 ## Ejecutar servidor:
 uvicorn app.main:app --reload
 
-## Abrir en el navegador:
+## Abrir en el navegador:
 http://localhost:8000/docs
